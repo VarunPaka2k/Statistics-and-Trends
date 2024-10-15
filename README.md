@@ -23,3 +23,4 @@ Columns and Their Descriptions:
 9. Perceptions of corruption: The perceived level of corruption within a country, ranging from 0 to 1, where lower values indicate lower levels of perceived corruption.
 10. Positive affect: Average frequency of positive emotions over the past day - happiness, laughter, or feeling really good.
 11. Negative Affect: Average frequency of negative emotions over the past day - sadness, anger, or feeling really bad.
+World Happiness Report Official Website: https://worldhappiness.report/
