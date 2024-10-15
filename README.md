@@ -9,17 +9,17 @@ Content:
 
 Here's a brief explanation of each column in the dataset:
 
-Country name: Name of the country.
-Regional indicator: Region to which the country belongs.
-Ladder score: The happiness score for each country, based on responses to the Cantril Ladder question that asks respondents to think of a ladder, with the best possible life for them being a 10, and the worst possible life being a 0.
-Upper whisker: Upper bound of the happiness score.
-Lower whisker: Lower bound of the happiness score.
-Log GDP per capita: The natural logarithm of the country's GDP per capita, adjusted for purchasing power parity (PPP) to account for differences in the cost of living between countries.
-Social support: The national average of binary responses(either 0 or 1 representing No/Yes) to the question about having relatives or friends to count on in times of trouble.
-Healthy life expectancy: The average number of years a newborn infant would live in good health, based on mortality rates and life expectancy at different ages.
-Freedom to make life choices: The national average of responses to the question about satisfaction with freedom to choose what to do with one's life.
-Generosity: The residual of regressing the national average of responses to the question about donating money to charity on GDP per capita.
-Perceptions of corruption: The national average of survey responses to questions about the perceived extent of corruption in the government and businesses.
-Dystopia + residual: Dystopia is an imaginary country with the world’s least-happy people, used as a benchmark for comparison. The dystopia + residual score is a combination of the Dystopia score and the unexplained residual for each country, ensuring that the combined score is always positive. Each of these factors contributes to the overall happiness score, but the Dystopia + residual value is a benchmark that ensures no country has a lower score than the hypothetical Dystopia.
-Positive affect: The national average of responses to questions about positive emotions experienced yesterday.
-Negative affect: The national average of responses to questions about negative emotions experienced yesterday.
+This looks to be a version of the World Happiness Report dataset, in which a number of years' data has been collected from various countries over well-being and social factors, among other economic and psychological indicators. The details of data and description of columns are as follows:
+
+Columns and Their Descriptions:
+1. Country name: The name of the country for which the data is collected.
+2. Year: It signifies the year when the data was recorded.
+3. Life Ladder: A subjective measure of well-being, also known as the Cantril ladder. People are asked to rate their current lives on a scale from 0 to 10, with 10 being the best possible life and 0 the worst.
+4. Log GDP per capita: Logarithm of Gross Domestic Product per capita, a measure of economic output accounting for the population size. This serves as an indicator of the general wealth of the country.
+5. Social support: Represents the average perceived social support of respondents through the level of emotional and material support that individuals feel they receive from family or friends.
+6. Healthy life expectancy at birth: The average number of years a newborn can expect to live in full health, considering the current mortality rates and health conditions.
+7. Freedom to make life choices: This is a measure of the perceived freedom that people have to make choices about their own lives.
+8. Generosity:This measures the amount of money that respondents report they have given to charity in the past month, adjusted for GDP per capita. It's a proxy for altruistic behaviour.
+9. Perceptions of corruption: The perceived level of corruption within a country, ranging from 0 to 1, where lower values indicate lower levels of perceived corruption.
+10. Positive affect: Average frequency of positive emotions over the past day - happiness, laughter, or feeling really good.
+11. Negative Affect: Average frequency of negative emotions over the past day - sadness, anger, or feeling really bad.
